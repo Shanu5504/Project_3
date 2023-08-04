@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- first navbar section -->
+    <div class="container-fluid" id="top_bar_container">
+        <div id="icon_bar">
+            <div id="icon">
+                <a class="icon1" href=""><img src="Facebook.png" alt="pic"></a>
+                <a class="icon1" href=""><img src="Twitter.png" alt="pic"></a>
+                <a class="icon1" href=""><img src="Instagram.png" alt="pic"></a>
+                <a class="icon1" href=""><img src="Youtube.png" alt="pic"></a>
+            </div>
+            <p id="icon_para">| +123 45678 901 |</p>
+            <a id="icon_anchor" href="">worldflycontact@gmail.com</a>
+        </div>
+        <div id="login_bar">
+            <a id="login_para" href="">Log In |</a>
+            <button type="button" class="btn" id="login_button">Create Account</button>
+        </div>
+    </div>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <img src="navbar-logo.png" class="img-fluid" id="navbar_logo" alt="pic">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" id="padding1" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="padding2" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="padding3" href="#">Tours</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="padding4" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="padding5" href="#">Contact Us</a>
+                </li>
+            </ul>
+            <div id="navbar_last_icon">
+                <a href="">
+                    <img id="last1" src="Search icon.png" alt="pic">
+                    <img id="last2" src="Cart icon.png" alt="pic">
+                    <img id="last3" src="Navigation icon.png" alt="pic">
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- banner section -->
+    <section id="home" class="banner_wrapper">
+        <div class="container-fluid">
+            <div class="row text-center" id="banner">
+                <div class="col-12 text-center">
+                    <h2 id="banner_head1">WELCOME TO WORLDFLY</h2>
+                    <h1 id="banner_head2">Explore the World Together</h1>
+                    <p id="banner_para">Find awesome tours, flights, hotel, and packages</p>
+                </div>
+            </div>
+            <!-- booking section -->
+            <div class="container">
+                <div class="row" id="booking_area">
+                    <div class="col-sm-12 col-lg-4">
+                        <label id="booking_label1" for="">Destination</label> <br>
+                        <div id="booking_area_1a">
+                            <input type="text" id="input-field" placeholder="Where are you going?">
+                            <div id="icon1">
+                                <i class="fa-solid fa-location-dot" id="mainicon"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg">
+                        <label id="booking_label2" for="">Journey Date</label> <br>
+                        <input id="input_field2" type="date" placeholder="Where are you going?">
+                    </div>
+                    <div class="col-sm-12 col-lg">
+                        <label id="booking_label3" for="">Journey Date</label> <br>
+                        <input id="input_field2" type="date" placeholder="Where are you going?">
+                    </div>
+                    <div class="col-sm-12 col-lg">
+                        <label id="booking_label4" for="">Guests</label> <br>
+                        <div id="booking_area4a">
+                            <input type="text" id="input_field3" placeholder="0 guests">
+                            <div id="icon2">
+                                <i class="fa-solid fa-user" id="guests_num"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg">
+                        <button type="button" class="btn" id="booking_area_button">FIND NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- travel section -->
+    <div class="container-fluid" id="travel-agency">
+        <div class="row">
+            <div class="col-sm-12 col-lg-6" id="travel_agency_center">
+                <h1 id="travel_head1">Why You Choose Our</h1>
+                <h1 id="travel_head2">Travel Agency</h1>
+                <h1 id="travel_head_shadow">ABOUT US</h1>
+                <p id="travel_para"><span id="para_first">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum.<br><br></span>
+
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+                <div id="travel_button1">
+                    <button type="button" class="btn" id="travel_button">Read More</button>
+                </div>
+                <div id="travel_para1">
+                    <div>
+                        <img id="travel_img1" src="travel-img1.png" alt="pic">
+                        <img id="travel_img2" src="Safety Shield.png" alt="pic">
+                    </div>
+                    <div class="d-flex flex_box">
+                        <h1 class="travel_head3">Trust & Safety </h1>
+                        <p class="travel_para2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br>
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                </div>
+                <div id="travel_para_unique2">
+                    <div>
+                        <img id="travel_img3" src="travel-img1.png" alt="pic">
+                        <img id="travel_img4" src="experience tour guide.png" alt="pic">
+                    </div>
+                    <div class="d-flex flex_box">
+                        <h1 class="travel_head3 travel_head_3a">Experienced Tour Guide </h1>
+                        <p class="travel_para2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br>
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                </div>
+                <div id="travel_para_unique3">
+                    <div>
+                        <img id="travel_img5" src="travel-img1.png" alt="pic">
+                        <img id="travel_img6" src="price tag.png" alt="pic">
+                    </div>
+                    <div class="d-flex flex_box">
+                        <h1 class="travel_head3 travel_head_3a">Affordable Tour Packages</h1>
+                        <p class="travel_para2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br>
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                </div>
+                <div id="travel_para_unique4">
+                    <div>
+                        <img id="travel_img7" src="travel-img1.png" alt="pic">
+                        <img id="travel_img8" src="glove img.png" alt="pic">
+                    </div>
+                    <div class="d-flex flex_box">
+                        <h1 class="travel_head3 travel_head_3a">Explore Top Places Over The World</h1>
+                        <p class="travel_para2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br>
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-6" id="travel-agency_center">
+                <div>
+                    <img id="travel_agency1" class="img-fluid" src="travel agency1.png" alt="">
+                    <img id="man" class="img-fluid" src="Man img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- travel partner section -->
+    <div class="container">
+        <div class="row" id="travel_partner">
+            <div class="col-12">
+                <h2 id="travel_partner_head1">Find your best travel partner</h2>
+                <h1 id="travel_partner_head2">Prepare yourself and let's enjoy <br> the beauty of the world</h1>
+                <p id="travel_partner_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor <br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <br> nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum.</p>
+                <div class="d-flex travel_partner_main_box">
+                    <div id="travel_partner_first_box" class="same text-center">
+                        <h1 class="travel_box">12K</h1>
+                        <p class="travel_box1">Local Guides</p>
+                    </div>
+                    <div id="travel_partner_second_box" class="same text-center">
+                        <h1 class="travel_box">750+</h1>
+                        <p class="travel_box1">Destinations</p>
+                    </div>
+                    <div id="travel_partner_third_box" class="same text-center">
+                        <h1 class="travel_box">100%</h1>
+                        <p class="travel_box1">Happiness</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- package section -->
+    <div class="container-fluid" id="package">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 id="package_head1">Popular Travel <span id="package_span">Packages</span></h1>
+                <h1 id="package_tour">TOUR</h1>
+                <p id="package_para1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim<br>veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            </div>
+        </div>
+        <div class="row" id="package_row1">
+            <div class="col-sm-12 col-md-4 d-flex justify-content-end package_box" id="package_c1">
+                <div class="package1">
+                    <img class="img-fluid package_card_img" src="package1.png" alt="pic">
+                    <div class="d-flex">
+                        <div id="star">
+                            <i class="fa-sharp fa-solid fa-star size"></i>
+                            <i class="fa-sharp fa-solid fa-star size"></i>
+                            <i class="fa-sharp fa-solid fa-star size"></i>
+                            <i class="fa-sharp fa-solid fa-star size"></i>
+                            <i class="fa-regular fa-star size"></i>
+                        </div>
+                        <p id="star_para1">1820+ Reviews</p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div class="country_name">
+                            <h2 class="country_name_para">Bali - An Idyllic<br>Retreat</h2>
+                            <img class="location" src="package-location.png" alt="pic"><span
+                                class="country">Indonesia</span>
+                        </div>
+                        <div class="rate">
+                            <p class="rate_para1">Night/$420</p>
+                            <p class="rate_para2">Jan 01-Jan 07</p>
+                            <p class="rate_para3">7 Days Package</p>
+                        </div>
+                    </div>
+                    <p class="card_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. </p>
+                    <div class="airport d-flex">
+                        <img class="logo_img" src="Airplane.png" alt="">
+                        <p class="logo_para">Airport</p>
+                        <img class="logo_img" src="Food.png" alt="">
+                        <p class="logo_para">Food</p>
+                        <img class="logo_img ac" src="AC .png" alt="">
+                        <p class="logo_para">AC Room</p>
+                    </div>
+                    <div id="button_box">
+                        <button type="button" class="btn =" id="card_button1">Book Now</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-12 col-md-4 d-flex justify-content-center package_box">
+                <div class="package2">
+                    <img class="img-fluid package_card_img" src="package2.png" alt="pic">
+                    <div class="d-flex">
+                        <div id="star">
+                            <i class="fa-sharp fa-solid fa-star size"></i>
+                            <i class="fa-sharp fa-solid fa-star size"></i>
+                            <i class="fa-sharp fa-solid fa-star size"></i>
+                            <i class="fa-sharp fa-solid fa-star size"></i>
+                            <i class="fa-sharp fa-solid fa-star size"></i>
+                        </div>
+                        <p id="star_para1">2200+ Reviews</p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div class="country_name">
+                            <h2 class="country_name_para">Bali - An Idyllic<br>Retreat</h2>
+                            <img class="location" src="package-location.png" alt="pic"><span
+                                class="country">Indonesia</span>
+                        </div>
+                        <div class="rate">
+                            <p class="rate_para1">Night/$420</p>
+                            <p class="rate_para2">Jan 01-Jan 07</p>
+                            <p class="rate_para3">7 Days Package</p>
+                        </div>
+                    </div>
+                    <p class="card_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. </p>
+                    <div class="airport d-flex">
+                        <img class="logo_img" src="Airplane.png" alt="">
+                        <p class="logo_para">Airport</p>
+                        <img class="logo_img" src="Food.png" alt="">
+                        <p class="logo_para">Food</p>
+                        <img class="logo_img ac" src="AC .png" alt="">
+                        <p class="logo_para">AC Room</p>
+                    </div>
+                    <div id="button_box">
+                        <button type="button" class="btn =" id="card_button1">Book Now</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-12 col-md-4 d-flex package_box">
+                <div class="package3">
+                    <img class="img-fluid package_card_img" src="package3.png" alt="pic">
+                    <div class="d-flex">
+                        <div id="star">
+                            <i class="fa-sharp fa-solid fa-star size"></i>
+                            <i class="fa-sharp fa-solid fa-star size"></i>
+                            <i class="fa-sharp fa-solid fa-star size"></i>
+                            <i class="fa-sharp fa-solid fa-star size"></i>
+                            <i class="fa-regular fa-star size"></i>
+                        </div>
+                        <p id="star_para1">1450+ Reviews</p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div class="country_name">
+                            <h2 class="country_name_para">Bali - An Idyllic<br>Retreat</h2>
+                            <img class="location" src="package-location.png" alt="pic"><span
+                                class="country">Indonesia</span>
+                        </div>
+                        <div class="rate">
+                            <p class="rate_para1">Night/$420</p>
+                            <p class="rate_para2">Jan 01-Jan 07</p>
+                            <p class="rate_para3">7 Days Package</p>
+                        </div>
+                    </div>
+                    <p class="card_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. </p>
+                    <div class="airport d-flex">
+                        <img class="logo_img" src="Airplane.png" alt="">
+                        <p class="logo_para">Airport</p>
+                        <img class="logo_img" src="Food.png" alt="">
+                        <p class="logo_para">Food</p>
+                        <img class="logo_img ac" src="AC .png" alt="">
+                        <p class="logo_para">AC Room</p>
+                    </div>
+                    <div id="button_box">
+                        <button type="button" class="btn =" id="card_button1">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- travel_views -->
+    <div class="container" id="travel_views">
+        <div class="row text-center" id="travel_view_row1">
+            <div class="col-12">
+                <h1 id="para">Travel <span id="view_span">Views</span></h1>
+                <h1 id="para2">GALLERY</h1>
+            </div>
+        </div>
+        <div class="row" id="travel_view_row2">
+            <div class="col-sm-12 col-md-4 travel_view_col" id="trave_view_col1">
+                <div class="row travel_same">
+                    <div id="travel_view_img1">
+                        <img class="img-fluid travel_view_card_img" id="img" src="gallery1.png" alt="pic">
+                    </div>
+                </div>
+                <div class="row travel_same " id="travel_view_row3">
+                    <div id="travel_view_img2">
+                        <img class="img-fluid" src="gallery2.png" alt="pic">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 travel_view_col" id="trave_view_col2">
+                <div class="row justify-content-center" id="travel_view_row4">
+                    <div id="travel_view_img3">
+                        <img class="img-fluid" src="gallery3.png" alt="pic">
+                    </div>
+                </div>
+                <div class="row justify-content-center" id="travel_view_row5">
+                    <div id="travel_view_img4">
+                        <img class="img-fluid" src="gallery4.png" alt="pic">
+                    </div>
+                </div>
+                <div class="row justify-content-center" id="travel_view_row6">
+                    <div id="travel_view_img5">
+                        <img class="img-fluid" src="gallery5.png" alt="pic">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 travel_view_col" id="trave_view_col3">
+                <div class="row justify-content-end" id="travel_view_row7">
+                    <div id="travel_view_img6">
+                        <img class="img-fluid" src="gallery6.png" alt="pic">
+                    </div>
+                </div>
+                <div class="row justify-content-end" id="travel_view_row8">
+                    <div id="travel_view_img7">
+                        <img class="img-fluid" src="gallery7.png" alt="pic">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <div id="views_button_box">
+                    <button type="button" class="btn =" id="views_card_button1">View More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- destination section -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators" id="destination_indicator">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <section id="destination">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 text-center">
+                                <h1 id="destination_head1">Trending <span id="destination_span">Destinations</span></h1>
+                                <h1 id="destination_shadow">EXPLORE MORE</h1>
+                                <p id="destination_para1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    do eiusmod
+                                    tempor
+                                    incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis
+                                    nostrud
+                                    exercitation
+                                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+                        <div class="row" id="destination_row">
+                            <div class="col-sm-12 col-md-4" id="destination_c1">
+                                <div id="destination_card1">
+                                    <h2 id="destination_head3">London, England</h2>
+                                    <p id="destination_para7">5 Days/ 4 Nights</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4" id="destination_c2">
+                                <div id="destination_card2">
+                                    <h1 id="destination-head2">Maldives</h1>
+                                    <div class="d-flex">
+                                        <img id="destination_location_img" src="destination_location_img.png"
+                                            alt="">
+                                        <p id="destination_location_para">Southn Asia</p>
+                                    </div>
+                                    <p id="destination_para2">Lorem ipsum dolor sit amet, consectetur <br>
+                                        adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore
+                                        magna <br> aliqua. Ut enim ad minim veniam, quis <br> nostrud exercitation
+                                        ullamco laboris nisi <br> ut aliquip ex ea commodo consequat.</p>
+                                    <div class="airport d-flex">
+                                        <img id="destination_plan_img" src="destinatio plan img.png" alt="">
+                                        <p id="destination_para3">Airport</p>
+                                        <img id="destination_food_img" src="destination_food_img.png" alt="">
+                                        <p id="destination_para4">Food</p>
+                                        <img id="destination_ac_img" src="destination_ac_img.png" alt="">
+                                        <p id="destination_para5">AC Room</p>
+                                    </div>
+                                    <p id="destination_para6">Package Rate : $3800</p>
+                                    <div class="text-center">
+                                        <button type="button" class="btn" id="destination_button">Find Out</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4" id="destination_c3">
+                                <div id="destination_card3">
+                                    <h2 id="destination_head_last">Sydney, Austrlia</h2>
+                                    <p id="destination_para_last">7 Days/ 6 Nights</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <!-- services section -->
+    <div class="container-fluid" id="services">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 id="services_head1">Our Top <span id="services_span">Services</span></h1>
+                <h1 id="services_head2">TOUR SERVICE</h1>
+                <p id="services_para1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-4 services_col1">
+                <div id="services_card1">
+                    <div id="services_img">
+                        <img src="services card1.png" alt="">
+                        <img id="services_card-img" src="services card1 img2.png" alt="">
+                        <h3 id="services_head3">Hotel Booking</h3>
+                    </div>
+                    <p id="services_para2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna <br> aliqua.</p>
+                    <div id="book_now_para">
+                        <span id="services_book_now">Book Now</span>
+                        <img src="services arrow.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 services_col1 d-flex justify-content-center">
+                <div id="services_card2">
+                    <div id="services_img">
+                        <img src="services card2.png" alt="">
+                        <img id="services_card-img" src="services card2 img2.png" alt="">
+                        <h3 id="services_head3">Restaurants</h3>
+                    </div>
+                    <p id="services_para2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna <br> aliqua.</p>
+                    <div id="book_now_para">
+                        <span id="services_book_now">Book Now</span>
+                        <img src="services arrow.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 services_col1">
+                <div id="services_card3">
+                    <div id="services_img">
+                        <img src="services card3.png" alt="">
+                        <img id="services_card-img" src="services card3 img2.png" alt="">
+                        <h3 id="services_head3">Tour Guide</h3>
+                    </div>
+                    <p id="services_para2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna <br> aliqua.</p>
+                    <div id="book_now_para">
+                        <span id="services_book_now">Book Now</span>
+                        <img src="services arrow.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="services_row2">
+            <div class="col-sm-12 col-md-4 services_col1">
+                <div id="services_card1">
+                    <div id="services_img">
+                        <img src="services card4.png" alt="">
+                        <img id="services_card-img" src="services card4 img2.png" alt="">
+                        <h3 id="services_head3">Flight Booking</h3>
+                    </div>
+                    <p id="services_para2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna <br> aliqua.</p>
+                    <div id="book_now_para">
+                        <span id="services_book_now">Book Now</span>
+                        <img src="services arrow.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 services_col1 d-flex justify-content-center">
+                <div id="services_card2">
+                    <div id="services_img">
+                        <img src="services card5.png" alt="">
+                        <img id="services_card-img" src="services card5 img2.png" alt="">
+                        <h3 id="services_head3">Transport Facility</h3>
+                    </div>
+                    <p id="services_para2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna <br> aliqua.</p>
+                    <div id="book_now_para">
+                        <span id="services_book_now">Book Now</span>
+                        <img src="services arrow.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4 services_col1">
+                <div id="services_card3" class="services_last-padding">
+                    <div id="services_img">
+                        <img src="services card6.png" alt="">
+                        <img id="services_card-img" src="services card6 img2.png" alt="">
+                        <h3 id="services_head3">First Aid Facility</h3>
+                    </div>
+                    <p id="services_para2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna <br> aliqua.</p>
+                    <div id="book_now_para">
+                        <span id="services_book_now">Book Now</span>
+                        <img src="services arrow.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- tourist review section -->
+    <div class="container-fluid">
+        <div class="row" id="review">
+            <div class="col-sm-12 col-lg-6" id="review_para1">
+                <img class="img-fluid" id="review_img" src="tourist review.png" alt="pic">
+            </div>
+            <div class="col-sm-12 col-lg-6" id="review_para">
+                <div id="review_star">
+                    <i class="fa-sharp fa-solid fa-star size"></i>
+                    <i class="fa-sharp fa-solid fa-star size"></i>
+                    <i class="fa-sharp fa-solid fa-star size"></i>
+                    <i class="fa-sharp fa-solid fa-star size"></i>
+                    <i class="fa-regular fa-star size"></i>
+                </div>
+                <p id="review_para2">Lorem ipsum dolor sit amet, consectetur ad <br> piscing elit, sed do eiusmod tempor
+                    incid <br> dunt ut labore et dolore magna aliqua. Ut <br> enim ad minim veniam, quis nostrud
+                    exercita-
+                    <br> tion ullamco laboris nisi ut aliquip ex ea com- <br> modo consequat.
+                </p>
+                <p id="review_para3">By Donald Jocobs</p>
+                <p id="review_para4">TOURIST REVIEWS</p>
+            </div>
+        </div>
+    </div>
+    <!-- team member section -->
+    <div class="container" id="team_member">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 id="team_member_head1">Our Team <span id="member"> Members</span></h2>
+                <h1 id="team_member_head2">TOUR GUIDE</h1>
+                <p id="team_member_para1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.<br> Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <div class="card text-center" id="card1">
+                    <img src="team member1.png" alt="">
+                    <h2 class="team_member_head3">Andy Lucas</h2>
+                    <p class="team_member_para2">Tour Guide</p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="card text-center" id="card2">
+                    <img src="team member2.png" alt="">
+                    <h2 class="team_member_head3">Henna Deresa</h2>
+                    <p class="team_member_para2">Tour Guide</p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <div class="card text-center" id="card3">
+                    <img src="team member3.png" alt="">
+                    <h2 class="team_member_head3">Alex Shelton</h2>
+                    <p class="team_member_para2">Tour Guide</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- tips section -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h1 id="tips_head1">Tips & <span id="tips">Article</span> </h1>
+                <h1 id="tips_head2">BLOG</h1>
+                <p id="tips_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+        <div class="row" id="tips_row">
+            <div class="col-sm-12 col-md-6">
+                <div id="tips_card">
+                    <img class="card_img img-fluid" src="tips.png" alt="">
+                    <h2 id="tips_head3">DESTINATIONS | TIPS</h2>
+                    <h1 id="tips_head4">9 Popular Travel Destination in 2022</h1>
+                    <hr id="hr">
+                    <p id="tips_para1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                    <div class="d-flex">
+                        <a href="">
+                            <p id="tips_anchor">Read More</p>
+                        </a>
+                        <a href="">
+                            <img id="tips_img" src="Tips arrow.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <div class="row" id="tips_card1">
+                    <div class="col-12" >
+                        <h2 id="tips_head3">DESTINATIONS | TIPS</h2>
+                        <h1 id="tips_head4">9 Popular Travel Destination in 2022</h1>
+                        <hr id="hr">
+                        <p id="tips_para1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                            dolor
+                            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                        <div class="d-flex">
+                            <a href="">
+                                <p id="tips_anchor">Read More</p>
+                            </a>
+                            <a href="">
+                                <img id="tips_img" src="Tips arrow.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="tips_card2">
+                    <div class="col-12">
+                        <h2 id="tips_head3">DESTINATIONS | TIPS</h2>
+                        <h1 id="tips_head4">9 Popular Travel Destination in 2022</h1>
+                        <hr id="hr">
+                        <p id="tips_para1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                            dolor
+                            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                        <div class="d-flex">
+                            <a href="">
+                                <p id="tips_anchor">Read More</p>
+                            </a>
+                            <a href="">
+                                <img id="tips_img" src="Tips arrow.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- partner section -->
+    <div  id="partner">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 id="partner_head">Our <span id="partner"> Partners</span></h1>
+            </div>
+        </div>
+        <div class="row" id="partner_row2">
+            <div class="col-sm-12 col-md">
+                <img src="Partner 1.png" alt="pic">
+            </div>
+            <div class="col-sm-12 col-md">
+                <img src="Partner 2.png" alt="pic">
+            </div>
+            <div class="col-sm-12 col-md">
+                <img src="Partner 3.png" alt="pic">
+            </div>
+            <div class="col-sm-12 col-md">
+                <img src="Partner 4.png" alt="pic">
+            </div>
+            <div class="col-sm-12 col-md">
+                <img src="Partner 5.png" alt="pic">
+            </div>
+            <div class="col-sm-12 col-md">
+                <img src="Partner 6.png" alt="pic">
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- footer setion -->
+    <div class="container-fluid" id="footer">
+        <div class="row">
+            <div class="col-sm-12 col-md">
+                <h2 id="footer1">WORLDFLY</h2>
+                <p id="footer2">Lorem ipsum dolor sit amet, <br>
+                    consectetur adipiscing elit, <br>
+                    sed do eiusmod tempor <br>
+                    incididunt ut labore et <br>
+                    dolore magna aliqua. </p>
+                <div id="footer_flex">
+                    <p id="footer3">Read More</p>
+                    <img id="footer-img" src="footer arrow.png" alt="pic">
+                </div>
+            </div>
+            <div class="col-sm-12 col-md">
+                <h2 id="footer4">COMPANY SUPPORT</h2>
+                <ul>
+                    <li><a href=""> ABOUT US</a></li>
+                    <li><a href="">TOURS</a></li>
+                    <li><a href="">OUR SERVICES</a></li>
+                    <li><a href="">GALLERY</a></li>
+                    <li><a href="">TESTIMONIAL</a></li>
+                    <li><a href="">BLOG</a> </li>
+                    <li><a href="">ACCOUNT</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md">
+                <h2 id="footer4">CONTACT US</h2>
+                <div class="footer_box1 d-flex">
+                    <img src="footer location.png" alt="pic">
+                    <p class="footer_para">1/2 Main Street NW <br> New York</p>
+                </div>
+                <div class="footer_box2 d-flex">
+                    <img src="footer phone.png" alt="pic">
+                    <p class="footer_para1">+123 45678 901</p>
+                </div>
+                <div class="footer_box3 d-flex">
+                    <img src="footer latter.png" alt="pic">
+                    <p class="footer_para2">worldflycontact@gmail.com</p>
+                </div>
+                <div id="footer_logo">
+                    <a href=""><img src="footer facebook.png" alt="pic"></a>
+                    <a href=""><img src="footer tweeter.png" alt="pic"></a>
+                    <a href=""><img src="footer linkedin.png" alt="pic"></a>
+                    <a href=""><img src="footer instagram.png" alt="pic"></a>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md">
+                <h2 id="footer5">MAKE A RESERVATION</h2>
+                <p id="footer_para3">Our Support and Teams are available 24/7 <br> to answer your queries.</p>
+                <div id="footer_button1">
+                    <input id="email" type="email" placeholder="Enter your email">
+                    <div id="footer_anchor">
+                        <a href="">SUBSCRIBE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- last_footer section -->
+    <div class="container-fluid" id="last_footer">
+        <div class="row">
+            <div class="col-12">
+                <div class="text-center">
+                    <p id="last_para_footer">© 2022 All Rights Reserved. Design by Free Html Templates</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

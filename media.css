@@ -1,0 +1,1446 @@
+@media (max-width: 575.98px) {
+    br {
+        display: none;
+    }
+
+    /* first navbar section */
+    #top_bar_container {
+        height: auto;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #icon {
+        padding: 0;
+        margin: 0;
+    }
+
+    .icon1 {
+        padding-right: 0;
+    }
+
+    #icon_para {
+        padding-top: 11px;
+        margin: 0;
+    }
+
+    #icon_anchor {
+        padding-top: 5px;
+    }
+
+    #login_para {
+        padding-top: 15px;
+    }
+
+    #login_button {
+        margin: 10px 0px 10px 10px;
+        padding: 0px 0px !important;
+        height: 30px;
+        width: 114px;
+        font-size: 16px;
+    }
+
+    #icon_bar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #login_bar {
+        padding-right: 0;
+    }
+
+    .navbar-toggler {
+        margin-right: 10px;
+    }
+
+    /* navbar */
+    .navbar {
+        height: auto;
+    }
+
+    #padding1 {
+        padding-left: 38px;
+    }
+
+    #navbar_last_icon {
+        padding-right: 0;
+        padding-bottom: 10px;
+        padding-left: 38px;
+        padding-top: 20px;
+    }
+
+    #navbar_logo {
+        padding-left: 20px;
+        height: 44px;
+        width: 139px;
+    }
+
+    /* banner section */
+    #banner_head1 {
+        padding-top: 99px;
+        line-height: 1;
+        font-size: 31px;
+    }
+
+    #banner_head2 {
+        font-size: 38px;
+        line-height: 1;
+    }
+
+    #banner_para {
+        font-size: 20px;
+        padding-top: 21px;
+        line-height: 1;
+    }
+
+    /* booking-area section */
+    #booking_area {
+        height: auto;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    #booking_area1 {
+        padding: 0;
+    }
+
+    #booking_area_1a {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #booking_label1 {
+        padding-left: 15px;
+    }
+
+    #input-field {
+        width: 90%;
+    }
+
+    #booking_area2 {
+        width: 90%;
+        padding-top: 61px;
+        padding-left: 0;
+        margin: 0 auto;
+    }
+
+    #booking_area3 {
+        width: 90%;
+        padding-left: 0;
+        margin: 0 auto;
+    }
+
+    #input_field3 {
+        margin-left: 0px;
+        width: 90%;
+    }
+
+    #booking_area4 {
+        margin-left: 0px;
+    }
+
+    #booking_label4 {
+        padding-top: 41px;
+        margin-left: 20px;
+    }
+
+    #booking_area4a {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #booking_area5 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    #booking_area_button {
+        margin: 40px 0 0 0;
+    }
+
+    /* travel agency section */
+    #travel_head_shadow {
+        padding-left: 0;
+    }
+
+    #travel_head1 {
+        padding-left: 0;
+    }
+
+    #travel_head2 {
+        padding-left: 0;
+        line-height: 1;
+    }
+
+    #travel_agency_center {
+        text-align: center;
+    }
+
+    #travel_head_shadow {
+        font-size: 48px;
+    }
+
+    #travel_para {
+        padding-left: 0;
+    }
+
+    #travel_button {
+        margin-left: 0;
+    }
+
+    #travel_img1 {
+        margin-left: 0;
+    }
+
+    #travel_img3 {
+        margin-left: 0;
+    }
+
+    #travel_img5 {
+        margin-left: 0;
+    }
+
+    #travel_img7 {
+        margin-left: 0;
+    }
+
+    #travel_para1 {
+        text-align: left;
+    }
+
+    .travel_head3 {
+        font-size: 20px;
+    }
+
+    #travel_para_unique2 {
+        text-align: left;
+    }
+
+    #travel_para_unique3 {
+        text-align: left;
+    }
+
+    #travel_para_unique4 {
+        text-align: left;
+    }
+
+    #travel_agency1 {
+        height: 667px;
+        padding-top: 0;
+        padding-left: 0;
+    }
+
+    #man {
+        padding-top: 0;
+        height: 667px;
+    }
+
+    /* travel_partner section */
+    #travel_partner {
+        height: auto;
+        width: 100%;
+    }
+
+    .travel_partner_main_box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #travel_partner {
+        text-align: center;
+    }
+
+    #travel_partner_head1 {
+        padding-left: 0;
+    }
+
+    #travel_partner_head2 {
+        padding-left: 0;
+    }
+
+    #travel_partner_para {
+        padding-left: 0;
+    }
+
+    #travel_partner_first_box {
+        margin-left: 0;
+    }
+
+    #travel_partner_first_box {
+        margin: 0;
+    }
+
+    #travel_partner_second_box {
+        margin: 0;
+    }
+
+    #travel_partner_third_box {
+        margin: 0;
+    }
+
+    .same {
+        margin-bottom: 10px !important;
+    }
+
+    /* package section */
+    #package {
+        height: auto;
+    }
+
+    .package1 {
+        height: auto;
+        max-width: 410px;
+        margin-bottom: 20px;
+    }
+
+    .package2 {
+        height: auto;
+        max-width: 410px;
+        margin-bottom: 20px;
+    }
+
+    .package3 {
+        height: auto;
+        max-width: 410px;
+        margin-bottom: 20px;
+    }
+
+    .package_card_img {
+        width: 100%;
+    }
+
+    .package_box {
+        justify-content: center;
+    }
+
+    #package_c1 {
+        justify-content: center !important;
+    }
+
+    /* travel view section */
+    #travel_views {
+        height: auto;
+    }
+
+    #travel_view_row2 {
+        text-align: center;
+    }
+
+    .travel_same {
+        justify-content: center !important;
+    }
+
+    #para2 {
+        font-size: 53px;
+        margin-top: -55px;
+    }
+
+    #travel_view_row7 {
+        justify-content: center !important;
+    }
+
+    #travel_view_row8 {
+        justify-content: center !important;
+    }
+
+    #travel_view_img2 {
+        padding-bottom: 15px;
+    }
+
+    #travel_view_img5 {
+        padding-bottom: 15px;
+    }
+
+    #travel_views {
+        height: auto;
+    }
+
+    #views_card_button1 {
+        margin-bottom: 40px;
+    }
+
+    /* destination section */
+    #destination {
+        height: auto;
+    }
+
+    #destination_shadow {
+        font-size: 50px;
+    }
+
+    #destination_para_last {
+        padding-bottom: 20px;
+    }
+
+    #destination_card1 {
+        width: 360px;
+        margin-bottom: 20px;
+    }
+
+    #destination_card2 {
+        height: auto;
+        max-width: 360px;
+        margin-bottom: 20px;
+    }
+
+    #destination_card3 {
+        height: auto;
+        max-width: 360px;
+    }
+
+    #destination_button {
+        margin-bottom: 20px;
+    }
+
+    #destination_c1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    #destination_c2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    #destination_c3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* services section */
+    #services {
+        height: auto;
+    }
+
+    #services_card1 {
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    #services_card2 {
+        width: 100%;
+        height: auto;
+    }
+
+    #services_card3 {
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    #services_head2 {
+        font-size: 58px;
+    }
+
+    .services_last-padding {
+        margin-bottom: 50px;
+    }
+
+    /* tourist review section */
+    #review_img {
+        width: 100%;
+        height: auto;
+    }
+
+    #review_para {
+        height: auto;
+    }
+
+    #review_para2 {
+        padding-left: 0;
+    }
+
+    #review_star {
+        padding-left: 0;
+    }
+
+    #review_para3 {
+        padding-left: 0;
+    }
+
+    #review_para4 {
+        padding-left: 0;
+    }
+
+    /* team member section */
+    #team_member_head2 {
+        margin-top: -67px;
+    }
+
+    #team_member_para1 {
+        margin-top: 50px;
+    }
+
+    /* tips section */
+    #tips_card {
+        margin-left: 0;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #tips_card1 {
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    #tips_para1 {
+        width: unset;
+    }
+
+    #tips_card2 {
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    #tips_head2 {
+        font-size: 82px;
+    }
+
+    /* partner section */
+    #partner {
+        height: auto;
+    }
+
+    #partner_col {
+        padding-left: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    #partner_col img {
+        padding-right: 0;
+    }
+
+    /* footer */
+    #footer2 {
+        padding-left: 0px;
+    }
+
+    #footer1 {
+        padding-left: 0;
+    }
+
+    #footer {
+        height: auto;
+    }
+
+    #footer_para3 {
+        margin-left: 0px;
+    }
+
+    #footer5 {
+        margin-left: 0;
+    }
+
+    #email {
+        margin-left: 0px;
+        width: 253px;
+    }
+
+    #footer_anchor {
+        padding-bottom: 29px;
+        margin-left: 170px;
+    }
+
+    #last_footer {
+        height: auto;
+    }
+
+    #last_para_footer {
+        margin-bottom: 0;
+    }
+
+    #partner_row2 img {
+        margin: auto;
+        display: block;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    br {
+        display: none;
+    }
+
+    /* first navbar section */
+    #top_bar_container {
+        height: auto;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #icon {
+        padding: 0;
+        margin: 0;
+    }
+
+    .icon1 {
+        padding-right: 0;
+    }
+
+    #icon_para {
+        padding-top: 11px;
+        margin: 0;
+    }
+
+    #icon_anchor {
+        padding-top: 5px;
+    }
+
+    #login_para {
+        padding-top: 15px;
+    }
+
+    #login_button {
+        margin: 10px 0px 10px 10px;
+        padding: 0px 0px !important;
+        height: 30px;
+        width: 114px;
+        font-size: 16px;
+    }
+
+    #icon_bar {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #login_bar {
+        padding-right: 0;
+    }
+
+    .navbar-toggler {
+        margin-right: 10px;
+    }
+
+    /* navbar */
+    .navbar {
+        height: auto;
+    }
+
+    #padding1 {
+        padding-left: 38px;
+    }
+
+    #navbar_last_icon {
+        padding-right: 0;
+        padding-bottom: 10px;
+        padding-left: 38px;
+        padding-top: 20px;
+    }
+
+    #navbar_logo {
+        padding-left: 20px;
+        height: 44px;
+        width: 139px;
+    }
+
+    /* banner section */
+    #banner_head1 {
+        padding-top: 99px;
+        line-height: 1;
+        font-size: 31px;
+    }
+
+    #banner_head2 {
+        font-size: 38px;
+        line-height: 1;
+    }
+
+    #banner_para {
+        font-size: 20px;
+        padding-top: 21px;
+        line-height: 1;
+    }
+
+    /* booking-area section */
+    #booking_area {
+        height: auto;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    #booking_area1 {
+        padding: 0;
+    }
+
+    #booking_area_1a {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #booking_label1 {
+        padding-left: 15px;
+    }
+
+    #input-field {
+        width: 90%;
+    }
+
+    #booking_area2 {
+        width: 90%;
+        padding-top: 61px;
+        padding-left: 0;
+        margin: 0 auto;
+    }
+
+    #booking_area3 {
+        width: 90%;
+        padding-left: 0;
+        margin: 0 auto;
+    }
+
+    #input_field3 {
+        margin-left: 0px;
+        width: 90%;
+    }
+
+    #booking_area4 {
+        margin-left: 0px;
+    }
+
+    #booking_label4 {
+        padding-top: 41px;
+        margin-left: 20px;
+    }
+
+    #booking_area4a {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #booking_area5 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    #booking_area_button {
+        margin: 40px 0 0 0;
+    }
+
+    /* travel agency section */
+    #travel_head_shadow {
+        padding-left: 0;
+    }
+
+    #travel_head1 {
+        padding-left: 0;
+    }
+
+    #travel_head2 {
+        padding-left: 0;
+        line-height: 1;
+    }
+
+    #travel_agency_center {
+        text-align: center;
+    }
+
+    #travel_head_shadow {
+        font-size: 48px;
+    }
+
+    #travel_para {
+        padding-left: 0;
+    }
+
+    #travel_button {
+        margin-left: 0;
+    }
+
+    #travel_img1 {
+        margin-left: 0;
+    }
+
+    #travel_img3 {
+        margin-left: 0;
+    }
+
+    #travel_img5 {
+        margin-left: 0;
+    }
+
+    #travel_img7 {
+        margin-left: 0;
+    }
+
+    #travel_para1 {
+        text-align: left;
+    }
+
+    .travel_head3 {
+        font-size: 20px;
+    }
+
+    #travel_para_unique2 {
+        text-align: left;
+    }
+
+    #travel_para_unique3 {
+        text-align: left;
+    }
+
+    #travel_para_unique4 {
+        text-align: left;
+    }
+
+    #travel_agency1 {
+        height: 667px;
+        padding-top: 0;
+        padding-left: 0;
+    }
+
+    #man {
+        padding-top: 0;
+        height: 667px;
+    }
+
+    #travel-agency_center {
+        text-align: center;
+    }
+
+    /* travel_partner section */
+    #travel_partner {
+        height: auto;
+        width: 100%;
+    }
+
+    .travel_partner_main_box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #travel_partner {
+        text-align: center;
+    }
+
+    #travel_partner_head1 {
+        padding-left: 0;
+    }
+
+    #travel_partner_head2 {
+        padding-left: 0;
+    }
+
+    #travel_partner_para {
+        padding-left: 0;
+    }
+
+    #travel_partner_first_box {
+        margin-left: 0;
+    }
+
+    #travel_partner_first_box {
+        margin: 0;
+    }
+
+    #travel_partner_second_box {
+        margin: 0;
+    }
+
+    #travel_partner_third_box {
+        margin: 0;
+    }
+
+    .same {
+        margin-bottom: 10px !important;
+    }
+
+    /* package section */
+    #package {
+        height: auto;
+    }
+
+    .package1 {
+        height: auto;
+        max-width: 410px;
+        margin-bottom: 20px;
+    }
+
+    .package2 {
+        height: auto;
+        max-width: 410px;
+        margin-bottom: 20px;
+    }
+
+    .package3 {
+        height: auto;
+        max-width: 410px;
+        margin-bottom: 20px;
+    }
+
+    .package_card_img {
+        width: 100%;
+    }
+
+    .package_box {
+        justify-content: center;
+    }
+
+    #package_c1 {
+        justify-content: center !important;
+    }
+
+    /* travel view section */
+    #travel_views {
+        height: auto;
+    }
+
+    #travel_view_row2 {
+        text-align: center;
+    }
+
+    .travel_same {
+        justify-content: center !important;
+    }
+
+    #para2 {
+        font-size: 53px;
+        margin-top: -55px;
+    }
+
+    #travel_view_row7 {
+        justify-content: center !important;
+    }
+
+    #travel_view_row8 {
+        justify-content: center !important;
+    }
+
+    #travel_view_img2 {
+        padding-bottom: 15px;
+    }
+
+    #travel_view_img5 {
+        padding-bottom: 15px;
+    }
+
+    #travel_views {
+        height: auto;
+    }
+
+    #views_card_button1 {
+        margin-bottom: 40px;
+    }
+
+    /* destination section */
+    #destination {
+        height: auto;
+    }
+
+    #destination_shadow {
+        font-size: 50px;
+    }
+
+    #destination_para_last {
+        padding-bottom: 20px;
+    }
+
+    #destination_card1 {
+        width: 360px;
+        margin-bottom: 20px;
+    }
+
+    #destination_card2 {
+        height: auto;
+        max-width: 360px;
+        margin-bottom: 20px;
+    }
+
+    #destination_card3 {
+        height: auto;
+        max-width: 360px;
+    }
+
+    #destination_button {
+        margin-bottom: 20px;
+    }
+
+    #destination_c1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    #destination_c2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    #destination_c3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* services section */
+    #services {
+        height: auto;
+    }
+
+    #services_card1 {
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    #services_card2 {
+        width: 100%;
+        height: auto;
+    }
+
+    #services_card3 {
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    #services_head2 {
+        font-size: 58px;
+    }
+
+    .services_last-padding {
+        margin-bottom: 50px;
+    }
+
+    /* tourist review section */
+    #review_img {
+        width: 100%;
+        height: auto;
+    }
+
+    #review_para {
+        height: auto;
+    }
+
+    #review_para2 {
+        padding-left: 0;
+    }
+
+    #review_star {
+        padding-left: 0;
+    }
+
+    #review_para3 {
+        padding-left: 0;
+    }
+
+    #review_para4 {
+        padding-left: 0;
+    }
+
+    /* team member section */
+    #team_member_head2 {
+        margin-top: -67px;
+    }
+
+    #team_member_para1 {
+        margin-top: 50px;
+    }
+
+    /* tips section */
+    #tips_card {
+        margin-left: 0;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #tips_card1 {
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    #tips_para1 {
+        width: unset;
+    }
+
+    #tips_card2 {
+        margin-left: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    #tips_head2 {
+        font-size: 82px;
+    }
+
+    /* partner section */
+    #partner {
+        height: auto;
+    }
+
+    #partner_col {
+        padding-left: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    #partner_col img {
+        padding-right: 0;
+    }
+
+    /* footer */
+    #footer2 {
+        padding-left: 0px;
+    }
+
+    #footer1 {
+        padding-left: 0;
+    }
+
+    #footer {
+        height: auto;
+    }
+
+    #footer_para3 {
+        margin-left: 0px;
+    }
+
+    #footer5 {
+        margin-left: 0;
+    }
+
+    #email {
+        margin-left: 0px;
+        width: 253px;
+    }
+
+    #footer_anchor {
+        padding-bottom: 29px;
+        margin-left: 170px;
+    }
+
+    #last_footer {
+        height: auto;
+    }
+
+    #last_para_footer {
+        margin-bottom: 0;
+    }
+
+    #partner_row2 img {
+        margin: auto;
+        display: block;
+    }
+
+    #partner_row2 img {
+        margin: auto;
+        display: block;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* first navbar section */
+    #icon {
+        padding-left: 16px;
+    }
+
+    #login_bar {
+        padding-right: 18px;
+    }
+
+    /* navbar section */
+    .navbar {
+        height: auto;
+    }
+
+    #padding1 {
+        padding-left: 39px;
+    }
+
+    #navbar_last_icon {
+        margin-left: 39px;
+        margin-bottom: 13px;
+    }
+
+    #booking_area {
+        height: auto;
+    }
+
+    #booking_area_button {
+        margin-bottom: 20px;
+    }
+
+    /* travel agency section */
+    #travel_para {
+        padding-left: 40px;
+    }
+
+    #travel_button {
+        margin-left: 40px;
+    }
+
+    /* package section */
+    .package1 {
+        height: 611px;
+    }
+
+    .package2 {
+        height: 611px;
+    }
+
+    .package3 {
+        height: 611px;
+    }
+
+    /* travel views */
+    .row {
+        margin: 0 !important;
+    }
+
+    #travel_views {
+        height: auto;
+    }
+
+    /* services section */
+    #services {
+        height: auto;
+    }
+
+    #services_card1 {
+        margin-left: 0;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #services_card2 {
+        max-width: 360px;
+        height: auto;
+    }
+
+    #services_card3 {
+        margin-left: 0;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #services_row2 {
+        padding-bottom: 30px;
+    }
+
+    /* team member section */
+    #services {
+        height: auto;
+    }
+
+    /* tips section */
+    #tips_card {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    #tips_para1 {
+        width: 100%;
+    }
+
+    #tips_card1 {
+        width: 100%;
+        margin-bottom: 20px;
+        height: auto;
+    }
+
+    #tips_card2 {
+        width: 100%;
+        height: auto;
+    }
+
+    #partner_col {
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    #partner {
+        height: auto;
+    }
+    #footer{
+        height: auto;
+    }
+    #footer1{
+        padding-left: 0;
+    }
+    #footer2{
+        padding-left: 0;
+    }
+    #footer3{
+        padding-left: 0;
+    }
+    #footer5{
+        margin-left: 0;
+    }
+    #footer_para3{
+        margin-left: 0;
+    }
+    #footer_para3{
+        margin-left: 0;
+    }
+    #email{
+        margin-left: 0;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    br{
+        display: none;
+    }
+        /* first navbar section */
+        #icon {
+            padding-left: 16px;
+        }
+    
+        #login_bar {
+            padding-right: 18px;
+        }
+    
+        /* navbar section */
+        .navbar {
+            height: auto;
+        }
+    
+        #padding1 {
+            padding-left: 39px;
+        }
+    
+        #navbar_last_icon {
+            margin-left: 39px;
+            margin-bottom: 13px;
+        }
+    
+        #booking_area {
+            height: auto;
+        }
+    
+        #booking_area_button {
+            margin-bottom: 20px;
+        }
+        #navbar_logo {
+            width: 200px!important;
+        }
+    
+        /* travel agency section */
+        #travel_para {
+            padding-left: 40px;
+        }
+    
+        #travel_button {
+            margin-left: 40px;
+        }
+    
+        /* package section */
+        .package1 {
+            height: 611px;
+        }
+    
+        .package2 {
+            height: 611px;
+        }
+    
+        .package3 {
+            height: 611px;
+        }
+    
+        /* travel views */
+        .row {
+            margin: 0 !important;
+        }
+    
+        #travel_views {
+            height: auto;
+        }
+    
+        /* services section */
+        #services {
+            height: auto;
+        }
+    
+        #services_card1 {
+            margin-left: 0;
+            max-width: 100%;
+            height: auto;
+        }
+    
+        #services_card2 {
+            max-width: 360px;
+            height: auto;
+        }
+    
+        #services_card3 {
+            margin-left: 0;
+            max-width: 100%;
+            height: auto;
+        }
+    
+        #services_row2 {
+            padding-bottom: 30px;
+        }
+    
+        /* team member section */
+        #services {
+            height: auto;
+        }
+    
+        /* tips section */
+        #tips_card {
+            margin-left: 0;
+            width: 100%;
+        }
+    
+        #tips_para1 {
+            width: 100%;
+        }
+    
+        #tips_card1 {
+            width: 100%;
+            margin-bottom: 20px;
+            height: auto;
+        }
+    
+        #tips_card2 {
+            width: 100%;
+            height: auto;
+        }
+    
+        #partner_col {
+            padding-left: 0;
+            justify-content: center;
+        }
+    
+        #partner {
+            height: auto;
+        }
+        #footer{
+            height: auto;
+        }
+        #footer1{
+            padding-left: 0;
+        }
+        #footer2{
+            padding-left: 0;
+        }
+        #footer3{
+            padding-left: 0;
+        }
+        #footer5{
+            margin-left: 0;
+        }
+        #footer_para3{
+            margin-left: 0;
+        }
+        #footer_para3{
+            margin-left: 0;
+        }
+        #email{
+            margin-left: 0;
+        }
+}
